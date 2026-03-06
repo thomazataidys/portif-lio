@@ -2,8 +2,11 @@ import { GraduationCap } from "lucide-react";
 
 export function Education() {
   return (
-    <section id="educacao" className="py-24 relative">
-      <div className="container mx-auto px-4 max-w-4xl">
+    <section id="educacao" className="py-24 relative overflow-x-clip">
+      {/* Background decoration */}
+      <div className="absolute top-24 left-1/2 -translate-x-1/2 w-[500px] h-[400px] bg-purple-primary/10 blur-[120px] rounded-full pointer-events-none" />
+
+      <div className="container mx-auto px-4 max-w-4xl relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold mb-16 flex items-center gap-4 justify-center md:justify-start">
           <span className="w-8 h-1 bg-purple-primary rounded-full hidden md:block" />
           Educação

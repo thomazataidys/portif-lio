@@ -49,8 +49,11 @@ export function Contact() {
   };
 
   return (
-    <section id="contato" className="py-24 bg-foreground/[0.02]">
-      <div className="container mx-auto px-4 max-w-5xl">
+    <section id="contato" className="py-24 relative overflow-x-clip">
+      {/* Background decoration */}
+      <div className="absolute top-24 left-1/2 -translate-x-1/2 w-[500px] h-[400px] bg-purple-primary/10 blur-[120px] rounded-full pointer-events-none" />
+
+      <div className="container mx-auto px-4 max-w-5xl relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold mb-16 flex items-center justify-center gap-4">
           Contato
           <span className="w-8 h-1 bg-purple-primary rounded-full hidden md:block" />

@@ -2,7 +2,7 @@ import { ThemeToggle } from "./ThemeToggle";
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-foreground/5 bg-background/80 backdrop-blur-md">
+    <header className="sticky top-0 z-50 w-full bg-background/80 backdrop-blur-md">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <div className="font-bold text-xl tracking-tight text-purple-primary">
           Thomaz Athaide

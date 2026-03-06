@@ -15,8 +15,12 @@ export function Projects() {
   ];
 
   return (
-    <section id="projetos" className="py-24 bg-foreground/[0.02]">
-      <div className="container mx-auto px-4">
+    <section id="projetos" className="py-24 relative overflow-x-clip">
+      {/* Background decorations */}
+      <div className="absolute top-24 left-[20%] -translate-x-1/2 w-[500px] h-[400px] bg-purple-primary/15 blur-[120px] rounded-full pointer-events-none" />
+      <div className="absolute bottom-1/4 right-0 translate-x-1/3 translate-y-1/2 w-[500px] h-[500px] bg-purple-primary/10 blur-[120px] rounded-full pointer-events-none" />
+
+      <div className="container mx-auto px-4 relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold mb-16 flex items-center gap-4">
           <span className="w-8 h-1 bg-purple-primary rounded-full" />
           Projetos e Experiência

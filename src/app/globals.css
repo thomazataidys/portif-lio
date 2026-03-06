@@ -11,6 +11,17 @@
   
   --color-fg-light: #171717;
   --color-fg-dark: #f4f4f5;
+
+  --animate-infinite-scroll: infinite-scroll 45s linear infinite;
+
+  @keyframes infinite-scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
 }
 
 @layer base {

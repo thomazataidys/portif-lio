@@ -2,7 +2,7 @@ import { ArrowRight, Download, Github, Linkedin } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="min-h-[calc(100vh-4rem)] flex items-center justify-center relative overflow-hidden py-20">
+    <section className="min-h-[calc(100vh-4rem)] flex items-center justify-center relative overflow-x-clip py-20">
       {/* Background decoration */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-purple-primary/20 blur-[120px] rounded-full pointer-events-none" />
 
