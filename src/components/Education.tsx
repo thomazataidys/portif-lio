@@ -31,7 +31,7 @@ export function Education() {
           {educations.map((edu, idx) => (
             <div
               key={idx}
-              className="group p-8 md:p-10 rounded-[2rem] bg-[#0E0616] md:bg-[#12081E] hover:bg-[#1A102C] border border-white/5 hover:border-purple-primary/40 transition-all duration-300 flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-8 shadow-xl"
+              className="group p-8 md:p-10 rounded-4xl bg-[#0E0616] md:bg-[#12081E] hover:bg-[#1A102C] border border-white/5 hover:border-purple-primary/40 transition-all duration-300 flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-8 shadow-xl"
             >
               {/* Icon Box */}
               <div className="flex flex-shrink-0 w-20 h-20 md:w-24 md:h-24 rounded-2xl bg-[#1A102C] group-hover:bg-[#2A1D45] items-center justify-center border border-white/5 transition-colors duration-300">

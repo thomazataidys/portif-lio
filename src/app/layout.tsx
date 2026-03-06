@@ -6,8 +6,11 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "Thomaz Jefferson Araujo Athaide - Desenvolvedor Full Stack",
+  title: "Thomaz Jefferson - Desenvolvedor Full Stack",
   description: "Portfólio de Thomaz Jefferson, Desenvolvedor Full Stack...",
+  icons: {
+    icon: "/profile.jpg",
+  },
 };
 
 export default function RootLayout({
