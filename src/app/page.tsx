@@ -22,7 +22,7 @@ export default function Home() {
 
       <footer className="py-8 bg-background border-t border-foreground/10 text-center text-foreground/50 text-sm">
         <div className="container mx-auto px-4">
-          © {new Date().getFullYear()} Thomaz Jefferson Araujo Athaide. Desenvolvido com Next.js e Tailwind CSS.
+          © {new Date().getFullYear()} Todos os direitos reservados. Desenvolvido por Thomaz Jefferson.
         </div>
       </footer>
     </div>

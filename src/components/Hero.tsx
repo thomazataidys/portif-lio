@@ -47,7 +47,7 @@ export function Hero() {
             <Github className="w-6 h-6" />
           </a>
           <a
-            href="www.linkedin.com/in/thomaz-ataidys-5546aa293"
+            href="https://www.linkedin.com/in/thomaz-athaide-5546aa293/?isSelfProfile=true"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-foreground/5 hover:bg-purple-primary hover:text-white transition-all text-foreground/70"
