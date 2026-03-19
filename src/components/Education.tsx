@@ -6,7 +6,7 @@ export function Education() {
       title: "BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO",
       institution: "Anhanguera Educacional",
       location: "São Luís MA",
-      period: "2023 - 2026",
+      period: "2023 - 2027",
     },
     {
       title: "AUXILIAR ADMINISTRATIVO",
